@@ -8,7 +8,7 @@ def main():
     print(
         "In",
         year,
-        "the winner of the World Series was",
+        "the winner of the World Series was the",
         team,
         "who have won the World Series",
         amount,
@@ -28,9 +28,6 @@ def create_count(team_name):
                 TeamWins[word] += 1
             else:
                 TeamWins[word] = 1
-
-    # for TextWord in TeamWins.keys():
-    # print(TextWord.rstrip(" "), ":", TeamWins[TextWord])
 
     value = TeamWins.get(team_name)
 
